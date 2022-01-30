@@ -244,7 +244,7 @@ body {
             flex: 1;
     border-radius: .5rem 0 0 .5rem;
   }
-  .container .articel {
+  .container .article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -253,7 +253,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .container .articel .tooltip {
+  .container .article .tooltip {
     position: relative;
     display: inline-block;
   }
@@ -261,11 +261,11 @@ body {
     padding: 1rem 2rem;
     border-radius: .75rem;
     visibility: hidden;
-    bottom: 150%;
+    bottom: 4rem;
     left: 30%;
     width: 200px;
     margin-left: -95px;
-    z-index: 1000;
+    z-index: 1;
   }
   .container .icons .icons-container p {
     margin-right: 0;
